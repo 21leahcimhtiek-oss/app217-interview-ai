@@ -1,0 +1,16 @@
+{
+  "id": "app217-interview-ai",
+  "name": "App217 Interview AI",
+  "tagline": "AI-powered hr solution",
+  "description": "AI-powered app217-interview-ai application built for Aurora Market. Modern, responsive design with SaaS monetization.",
+  "category": "hr",
+  "tags": ["ai", "hr"],
+  "url": "https://auroramarket.org/app217-interview-ai",
+  "demo": "https://21leahcimhtiek-oss.github.io/app217-interview-ai",
+  "repo": "https://github.com/21leahcimhtiek-oss/app217-interview-ai",
+  "stack": ["TypeScript", "Next.js", "React"],
+  "status": "mvp",
+  "version": "1.0.0",
+  "author": "Aurora Rayes LLC",
+  "license": "MIT"
+}
