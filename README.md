@@ -31,11 +31,29 @@ npm run dev
 | Free | $0/mo |
 | Pro  | $19/mo or $159/yr |
 
-## Deploy
-1. Push to GitHub
-2. Import in Vercel
-3. Add env vars
-4. Deploy
+## Deployment
+### Vercel
+1. Push to GitHub.
+2. Import the repository in Vercel.
+3. Add environment variables.
+4. Deploy from `main`.
+
+### CI
+`.github/workflows/ci.yml` runs script-aware checks:
+- npm install (`ci` when lockfile exists)
+- `lint`, `test`, and `build` only when scripts exist
+
+## Environment Variables
+Configure (from `.env.example`):
+- `NEXT_PUBLIC_APP_NAME`
+- `NEXT_PUBLIC_APP_URL`
+- `OPENAI_API_KEY`
+- `STRIPE_SECRET_KEY`
+- `STRIPE_WEBHOOK_SECRET`
+- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
+- `STRIPE_PRICE_PRO_MONTHLY`
+- `STRIPE_PRICE_PRO_YEARLY`
+- `DATABASE_URL`
 
 ## License
 MIT (c) 2026 Aurora Rayes LLC
